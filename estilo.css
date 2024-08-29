@@ -1,0 +1,135 @@
+*{margin: 0;} /*altera a margem de toda a pagina */
+.container{
+    display: flex; /*dentro da tag container há outras divs, atraves do display flex e flex direction é possivel definir a posição destas
+    divs ao mesmo tempo*/
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(63, 116, 63); /*define a cor de fundo do elemento */
+    border-radius: 50px 50px 50px 50px; /*define a borda do elemento container de forma circular */
+    border: 1px solid white; /*destaca a borda do elemento, sendo possivel definir a cor */
+}
+
+.container2{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    
+.child1{width: 50%; /*define a largura do elemento*/
+    height: 200px; /*define a altura do elemento */
+   }
+
+.child2{width: 50%;
+    height: 200px;
+    text-align: center; /*alinha o texto ao centro */
+    margin-top: 200px; /*define a margem na parte decima do elemento */
+    font-size: 25px; /*define o tamanho da fonte do elemento */
+    font-family: Georgia, 'Times New Roman', Times, serif; /*define o tipo da fonte do elemento*/
+    color: white; /*define a cor da escrita */
+    }
+
+.eb{width: 500px;
+    height: 320px;
+margin-left: 50px; /*define a margem a esquerda do elemento */
+margin-top: 50px;
+border: 3px solid black;}
+
+.eb2{width: 500px;
+    height: 320px;
+    margin-left: 200px;
+    margin-top: 50px;
+    border: 3px solid black;}
+
+a{text-decoration: none;} /*remove as alterações feitas no texto, como por exemplo o sublinahdo */
+
+.botao1{background-color: rgb(63, 116, 63);
+width: 200px;
+height: 30px;
+border: 1px solid white;
+align-items: center; /*alinha os elementos ao centro */
+color: white;
+cursor: pointer; /*tem como função aparecer o cursor indicador quando passar com o mouse encima do elemento */
+}
+
+.cor1{height: 10px;
+    background-color: black;
+    margin-top: 30px;
+    }
+
+.cor3{height: 10px;
+    background-color: gray;}
+
+.cora{height: 10px;
+    background-color: black;
+    margin-top: 0}
+
+.corb{height: 10px;
+    background-color: gray;}
+
+header{background-color: rgb(56, 124, 124);
+}
+
+h1{text-align: center;
+padding: 50px; 
+color: white;}
+
+p{text-align: center;
+margin-top: 30px;
+font-size: 40px;}
+
+.containerf{
+    display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 100px;
+margin-bottom: 300px; /*define a margem na parte debaixo do item */
+}
+
+.f1{
+margin-top: 50px;
+background-color: black;
+color: white;
+font-size: 18px;}
+
+.formulario {display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 100px;}
+
+.whats{display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 300px;
+    font-size: 18px;}
+
+.catalogolink{display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    font-size: 18px;}
+
+.informacao{display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 18px;
+    text-align: center;}
+
+body{background-color: rgb(56, 124, 124);}
+
+.mensagem{color: white;}
+
+.tamwhats{height: 40px;
+margin-left: 10px;}
+
+.progra{height: 200px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;}
+
+.estudante{width: 400px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;}
